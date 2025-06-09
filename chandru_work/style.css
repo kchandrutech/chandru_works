@@ -1,0 +1,42 @@
+/* Background Image */
+.hero-section {
+  background: linear-gradient(rgba(44, 30, 20, 0.7), rgba(44, 30, 20, 0.7)),
+    url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg")
+      no-repeat center center / cover;
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+/* Orange Rounded Button */
+.btn-orange {
+  background-color: orange;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: darkorange;
+}
+
+/* Divider Line */
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: orange;
+}
+
+/* Responsive Text Fix */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-orange {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
